@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA398FDC2E169F6500A1FF8A /* ResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA398FDB2E169F6500A1FF8A /* ResultController.swift */; };
 		DA57C4722E13CFCA003B2D79 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA57C4712E13CFCA003B2D79 /* GameController.swift */; };
 		DA5C04702DDA30B300A73A31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5C046F2DDA30B300A73A31 /* AppDelegate.swift */; };
 		DA5C04722DDA30B300A73A31 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5C04712DDA30B300A73A31 /* SceneDelegate.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DA398FDB2E169F6500A1FF8A /* ResultController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultController.swift; sourceTree = "<group>"; };
 		DA57C4712E13CFCA003B2D79 /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
 		DA5C046C2DDA30B300A73A31 /* Card_game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Card_game.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA5C046F2DDA30B300A73A31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				DA5C047A2DDA30B400A73A31 /* LaunchScreen.storyboard */,
 				DA5C047D2DDA30B400A73A31 /* Info.plist */,
 				DA57C4712E13CFCA003B2D79 /* GameController.swift */,
+				DA398FDB2E169F6500A1FF8A /* ResultController.swift */,
 			);
 			path = Card_game;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			files = (
 				DA5C04742DDA30B300A73A31 /* ViewController.swift in Sources */,
 				DA57C4722E13CFCA003B2D79 /* GameController.swift in Sources */,
+				DA398FDC2E169F6500A1FF8A /* ResultController.swift in Sources */,
 				DA5C04702DDA30B300A73A31 /* AppDelegate.swift in Sources */,
 				DA5C04722DDA30B300A73A31 /* SceneDelegate.swift in Sources */,
 			);
