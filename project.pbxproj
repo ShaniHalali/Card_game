@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DA398FDC2E169F6500A1FF8A /* ResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA398FDB2E169F6500A1FF8A /* ResultController.swift */; };
+		DA398FDF2E16E98100A1FF8A /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA398FDE2E16E98100A1FF8A /* LocationManager.swift */; };
 		DA57C4722E13CFCA003B2D79 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA57C4712E13CFCA003B2D79 /* GameController.swift */; };
 		DA5C04702DDA30B300A73A31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5C046F2DDA30B300A73A31 /* AppDelegate.swift */; };
 		DA5C04722DDA30B300A73A31 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5C04712DDA30B300A73A31 /* SceneDelegate.swift */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		DA398FDB2E169F6500A1FF8A /* ResultController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultController.swift; sourceTree = "<group>"; };
+		DA398FDE2E16E98100A1FF8A /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		DA57C4712E13CFCA003B2D79 /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
 		DA5C046C2DDA30B300A73A31 /* Card_game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Card_game.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA5C046F2DDA30B300A73A31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +82,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DA398FDD2E16E95C00A1FF8A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DA398FDE2E16E98100A1FF8A /* LocationManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		DA5C04632DDA30B200A73A31 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +113,7 @@
 		DA5C046E2DDA30B300A73A31 /* Card_game */ = {
 			isa = PBXGroup;
 			children = (
+				DA398FDD2E16E95C00A1FF8A /* Models */,
 				DA5C046F2DDA30B300A73A31 /* AppDelegate.swift */,
 				DA5C04712DDA30B300A73A31 /* SceneDelegate.swift */,
 				DA5C04732DDA30B300A73A31 /* ViewController.swift */,
@@ -266,6 +277,7 @@
 			files = (
 				DA5C04742DDA30B300A73A31 /* ViewController.swift in Sources */,
 				DA57C4722E13CFCA003B2D79 /* GameController.swift in Sources */,
+				DA398FDF2E16E98100A1FF8A /* LocationManager.swift in Sources */,
 				DA398FDC2E169F6500A1FF8A /* ResultController.swift in Sources */,
 				DA5C04702DDA30B300A73A31 /* AppDelegate.swift in Sources */,
 				DA5C04722DDA30B300A73A31 /* SceneDelegate.swift in Sources */,
