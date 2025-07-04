@@ -19,6 +19,13 @@
 		DA5C04872DDA30B400A73A31 /* Card_gameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5C04862DDA30B400A73A31 /* Card_gameTests.swift */; };
 		DA5C04912DDA30B400A73A31 /* Card_gameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5C04902DDA30B400A73A31 /* Card_gameUITests.swift */; };
 		DA5C04932DDA30B400A73A31 /* Card_gameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5C04922DDA30B400A73A31 /* Card_gameUITestsLaunchTests.swift */; };
+		DADBED0E2E180DDD009F457F /* flipcard.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DADBED0D2E180DDD009F457F /* flipcard.mp3 */; };
+		DADBED152E1817F9009F457F /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = DADBED142E1817F8009F457F /* Contents.json */; };
+		DADBED172E181804009F457F /* WhatsApp Image 2025-06-05 at 19.12.37.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DADBED162E181804009F457F /* WhatsApp Image 2025-06-05 at 19.12.37.jpeg */; };
+		DADBED192E18180E009F457F /* WhatsApp Image 2025-06-05 at 19.12.37@2x.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DADBED182E18180E009F457F /* WhatsApp Image 2025-06-05 at 19.12.37@2x.jpeg */; };
+		DADBED1B2E18181B009F457F /* WhatsApp Image 2025-06-05 at 19.12.37@3x.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DADBED1A2E18181B009F457F /* WhatsApp Image 2025-06-05 at 19.12.37@3x.jpeg */; };
+		DADBED1D2E181A16009F457F /* losing_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DADBED1C2E181A16009F457F /* losing_sound.mp3 */; };
+		DADBED1F2E181A19009F457F /* victory_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DADBED1E2E181A19009F457F /* victory_sound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +62,13 @@
 		DA5C048C2DDA30B400A73A31 /* Card_gameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Card_gameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA5C04902DDA30B400A73A31 /* Card_gameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card_gameUITests.swift; sourceTree = "<group>"; };
 		DA5C04922DDA30B400A73A31 /* Card_gameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card_gameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DADBED0D2E180DDD009F457F /* flipcard.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = flipcard.mp3; sourceTree = "<group>"; };
+		DADBED142E1817F8009F457F /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		DADBED162E181804009F457F /* WhatsApp Image 2025-06-05 at 19.12.37.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "WhatsApp Image 2025-06-05 at 19.12.37.jpeg"; sourceTree = "<group>"; };
+		DADBED182E18180E009F457F /* WhatsApp Image 2025-06-05 at 19.12.37@2x.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "WhatsApp Image 2025-06-05 at 19.12.37@2x.jpeg"; sourceTree = "<group>"; };
+		DADBED1A2E18181B009F457F /* WhatsApp Image 2025-06-05 at 19.12.37@3x.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "WhatsApp Image 2025-06-05 at 19.12.37@3x.jpeg"; sourceTree = "<group>"; };
+		DADBED1C2E181A16009F457F /* losing_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = losing_sound.mp3; sourceTree = "<group>"; };
+		DADBED1E2E181A19009F457F /* victory_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = victory_sound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,12 +127,14 @@
 		DA5C046E2DDA30B300A73A31 /* Card_game */ = {
 			isa = PBXGroup;
 			children = (
+				DADBED0C2E180DA4009F457F /* Sounds */,
 				DA398FDD2E16E95C00A1FF8A /* Models */,
 				DA5C046F2DDA30B300A73A31 /* AppDelegate.swift */,
 				DA5C04712DDA30B300A73A31 /* SceneDelegate.swift */,
 				DA5C04732DDA30B300A73A31 /* ViewController.swift */,
 				DA5C04752DDA30B300A73A31 /* Main.storyboard */,
 				DA5C04782DDA30B400A73A31 /* Assets.xcassets */,
+				DADBED132E1817D6009F457F /* fireworks.imageset */,
 				DA5C047A2DDA30B400A73A31 /* LaunchScreen.storyboard */,
 				DA5C047D2DDA30B400A73A31 /* Info.plist */,
 				DA57C4712E13CFCA003B2D79 /* GameController.swift */,
@@ -142,6 +158,27 @@
 				DA5C04922DDA30B400A73A31 /* Card_gameUITestsLaunchTests.swift */,
 			);
 			path = Card_gameUITests;
+			sourceTree = "<group>";
+		};
+		DADBED0C2E180DA4009F457F /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				DADBED1E2E181A19009F457F /* victory_sound.mp3 */,
+				DADBED1C2E181A16009F457F /* losing_sound.mp3 */,
+				DADBED0D2E180DDD009F457F /* flipcard.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		DADBED132E1817D6009F457F /* fireworks.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				DADBED1A2E18181B009F457F /* WhatsApp Image 2025-06-05 at 19.12.37@3x.jpeg */,
+				DADBED182E18180E009F457F /* WhatsApp Image 2025-06-05 at 19.12.37@2x.jpeg */,
+				DADBED162E181804009F457F /* WhatsApp Image 2025-06-05 at 19.12.37.jpeg */,
+				DADBED142E1817F8009F457F /* Contents.json */,
+			);
+			path = fireworks.imageset;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,7 +287,14 @@
 			files = (
 				DA5C047C2DDA30B400A73A31 /* LaunchScreen.storyboard in Resources */,
 				DA5C04792DDA30B400A73A31 /* Assets.xcassets in Resources */,
+				DADBED1D2E181A16009F457F /* losing_sound.mp3 in Resources */,
 				DA5C04772DDA30B300A73A31 /* Main.storyboard in Resources */,
+				DADBED192E18180E009F457F /* WhatsApp Image 2025-06-05 at 19.12.37@2x.jpeg in Resources */,
+				DADBED1B2E18181B009F457F /* WhatsApp Image 2025-06-05 at 19.12.37@3x.jpeg in Resources */,
+				DADBED0E2E180DDD009F457F /* flipcard.mp3 in Resources */,
+				DADBED152E1817F9009F457F /* Contents.json in Resources */,
+				DADBED172E181804009F457F /* WhatsApp Image 2025-06-05 at 19.12.37.jpeg in Resources */,
+				DADBED1F2E181A19009F457F /* victory_sound.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
